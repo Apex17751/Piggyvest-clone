@@ -11,6 +11,7 @@ body{
 }
 :root{
     --fontFamily: 'DM Sans', sans-serif;
+    --fontFamilyTwo: 'u8', sans-serif;
     --bar-width: 50px;
     --bar-height: 4px;
     --hamburger-gap: 6px;
@@ -112,7 +113,7 @@ a{
     padding-bottom: 300px;
 }
 .contents h1{
-    font-family: 'u8', sans-serif;
+    font-family: 'u8' sans-serif !important;
     width: 500px;
     padding-bottom: 10px;
 }
@@ -307,13 +308,7 @@ a{
         
     }
 
-    .nav-link svg{
-       
-       
-    }
-    .navigation{
-        
-    }
+    
     .contents{
         display: block;
        align-items: center;
@@ -617,6 +612,7 @@ a{
     align-items: center;
     justify-content: center;
     height: 300px;
+    font-family: var(--fontFamily);
 }
 @media (min-width: 990px) {
     .secure{
@@ -642,7 +638,6 @@ a{
     
 }
 .sec-text h1{
-    font-family: 'u8', sans-serif;
     padding-bottom: 20px;
 }
 .image-sec{
@@ -676,6 +671,7 @@ a{
 .savings{
     width: 100%;
     justify-content: space-between;
+    font-family: var(--fontFamily);
     padding-bottom: 100px;
 }
 @media (max-width: 990px) {
@@ -917,7 +913,7 @@ a{
     padding-top: 60px;
 }
 .save-text h1{
-    font-family: 'u8', sans-serif;
+    font-family: var(--fontFamily);
     line-height: 50px;
     padding-bottom: 15px;
 }
@@ -984,7 +980,7 @@ a{
 }
 
 .invest-text h1{
-    font-family: 'u8', sans-serif;
+    font-family: var(--fontFamily);
     font-weight: bolder;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -1089,8 +1085,7 @@ a{
 }
     
 .person-text h1{
-    font-family: 'u8', bold;
-
+    font-family: var(--fontFamily);
     color: #fff;
     margin: auto;
     text-align: center;
@@ -1232,7 +1227,7 @@ a{
         position: absolute;
     }
     .person-text h1{
-        font-family: 'u8', bold;
+        font-family: var(--fontFamily);
         max-width: 450px;
         color: #fff;
         padding-bottom: 20px;
@@ -1285,7 +1280,7 @@ a{
 }
 
 .comments-text h2{
-    font-family: 'u8', bold;
+    font-family: var(--fontFamily);
     padding-bottom: 20px;
 }
 @media (min-width: 650px) and (max-width: 990px)  {
@@ -1464,7 +1459,7 @@ a{
     margin-bottom: 50px;
 }
 .affil h1{
-    font-family: 'u8', bold;
+    font-family: var(--fontFamily)
 }
 
 
