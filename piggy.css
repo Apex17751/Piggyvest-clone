@@ -12,8 +12,8 @@ body{
 :root{
     --fontFamily: 'DM Sans', sans-serif;
     --fontFamilyTwo: 'u8', sans-serif;
-    --bar-width: 50px;
-    --bar-height: 4px;
+    --bar-width: 30px;
+    --bar-height: 3px;
     --hamburger-gap: 6px;
     --animation-timing: 200ms ease-in-out
 }
@@ -106,7 +106,6 @@ a{
     width: 100%;
     height: 100vh;
     align-items: center;
-    transform: translateY(250px);
 }
 .contents{
     display: flex;
@@ -124,6 +123,9 @@ a{
     }
     .cont-text{
         padding-left: 30px;
+    }
+    .contents{
+        transform: translateY(250px);
     }
     
 }
@@ -161,19 +163,22 @@ a{
 .img {
    position: absolute;
    left: -80px;
-   top: 200px;
+   top: 250px;
   }
+  .butu{
+    margin-top: 20px;
+}
   .rect {
     width: 95%;
     position: relative;
-    top: 170px;
+    top: 200px;
     left: -20px;
     
   }
   .image {
     position: absolute;
     width: 30%;
-    
+    top: -250px;
   }
   .card1, .card2 {
     width: 55%;
@@ -185,11 +190,11 @@ a{
 .cross{
     width: 75px;
     left: -115px;
-    top: 160px;
+    top: 220px;
     
 }
 .card1 {
-    margin-top: 170px;
+    margin-top: 250px;
     margin-left: -520px;
   }
   .card2 {
@@ -198,6 +203,7 @@ a{
   }
   .cardthree{
     width: 30px;
+    margin-top: 60px;
   }
   .cardfour{
     width: 40px;
@@ -220,12 +226,6 @@ a{
     
 }
 
-
-
-
-.butu{
-    margin-top: 20px;
-}
 .apple{
     padding: 8px 14px;
     background-color: transparent;
@@ -268,7 +268,7 @@ a{
     }
     .nav-link{
         width: 100%;
-        height: 750px;
+        height: 70px;
        position: absolute;
         left: 20px;
         align-items: center;
@@ -279,7 +279,7 @@ a{
         display: flex;
         flex-direction: column;
         gap: var(--hamburger-gap);
-        right: 60px;
+        right: 30px;
         position: absolute;
         z-index: 2;
         cursor: pointer;
@@ -313,6 +313,7 @@ a{
         display: block;
        align-items: center;
         justify-content: center;
+        transform: translateY(200px);
        
     }
 
@@ -328,7 +329,7 @@ a{
     .google{
         display: block;
         margin: auto;
-        transform: translateY(30px);
+        transform: translateY(15px);
     }
     /*secure section*/
     
@@ -367,7 +368,7 @@ a{
         width: 90%;
         line-height: 40px;
         margin: auto;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
     .contents button{
@@ -390,7 +391,7 @@ a{
         width: 90%;
         line-height: 40px;
         margin: auto;
-        font-size: 19px;
+        font-size: 18px;
         text-align: center;
     }
     .contents button{
@@ -471,7 +472,6 @@ a{
     .img{
         width: 60%;
         position: absolute;
-     
         z-index: 99;
     }
     .rect{
@@ -543,14 +543,14 @@ a{
         width: 70%;
         position: absolute;
         z-index: 99;
-        left: 30px;
+        left: 50px;
  
     }
     .rect{
         width: 65%;
         z-index: 9;
         position: relative;
-        right: -10px;
+        right: -30px;
         
     }
     .image {
@@ -589,7 +589,7 @@ a{
       .cardthree{
         width: 8%;
         position: absolute;
-        left: 15px;
+        left: 35px;
         z-index: 99;
         bottom: 30px;
       }
@@ -634,7 +634,9 @@ a{
     
 }
 @media (max-width: 990px) {
-    
+    .secure{
+        margin-top: 300px;
+    }
     
 }
 .sec-text h1{
@@ -645,7 +647,7 @@ a{
     justify-content: center;
 }
 .sec-text{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .image-sec img{
 
@@ -1249,6 +1251,12 @@ a{
     .comments{
         display: block;
     }
+    #bty{
+        margin-bottom: 30px;
+    }
+    #goog{
+        margin-bottom: 30px;
+    }
         .comments-text h2{
             text-align: center;
             margin: auto;
@@ -1256,6 +1264,10 @@ a{
         .comments-text p{
             text-align: center;
             margin: auto;
+            padding: 0px 20px;
+        }
+        .comments-text{
+            margin-top: 70px;
         }
     }
     
@@ -1263,8 +1275,9 @@ a{
         
         .comments-text{
             align-items: center;
-            justify-content: flex-end;
-            margin-top: 70px;
+            padding-left: 50px;
+            margin-top: 170px;
+            margin-bottom: 50px;
         }
         .comments{
             display: flex;
@@ -1472,7 +1485,7 @@ a{
 .newsletter{
     width: 100%;
     padding: 50px 40px;
-    height: 300px;
+    height: 280px;
     font-family: var(--fontFamily);
     font-size: 13px;
     color: #0c1825;
@@ -1506,7 +1519,6 @@ a{
 }
 .flex-news{
     display: flex;
-    padding-bottom: 70px;
     justify-content: space-between;
 }
 .social-icons p{
@@ -1519,6 +1531,9 @@ a{
         padding-bottom: 70px;
         justify-content: space-between;
     }
+    .flex-box{
+        padding-bottom: 80px;
+     }
     .comp{
         margin-left: 25px;
     }
@@ -1552,7 +1567,7 @@ a{
 @media (max-width: 990px) {
     .flex-news{
         display: block;
-        padding-bottom: 70px;
+        padding-bottom: 30px;
         justify-content: space-between;
     }
     .news-link{
@@ -1572,13 +1587,13 @@ a{
         }
         .social-media i{
             text-align: left;
-            margin: 0px 0px 15px 5px;
+            margin: 0px 0px 10px 5px;
             cursor: pointer;
          
              
          }
          .social-icons p{
-            padding-bottom: 20px;
+            padding-bottom: 10px;
             text-align: left;
             cursor: pointer;
         }
@@ -1603,19 +1618,23 @@ a{
         width: 500px;
         margin: auto;
     }
+    .flex-box{
+        padding-bottom: 40px;
+     }
     
 }
 @media (max-width: 600px) {
     .piggy{
         text-align: center;
     }
+    .flex-box{
+        padding-bottom: 30px;
+     }
     
 }
 
 
-.flex-box{
-   padding-bottom: 80px;
-}
+
 
 .piggy{
     line-height: 30px;
